@@ -4,7 +4,7 @@ class Room
 	def initialize(room, date)
     	@room = room
     	@date = date
-  end
+  	end
 
 	def give_date
 		"On this date: #{@date}"
